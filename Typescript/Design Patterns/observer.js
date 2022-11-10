@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var rxjs_1 = require("rxjs");
+var news = new rxjs_1.Subject();
+var tv1 = news.subscribe(function (v) { return console.log(v + 'via Den TV'); });
+var tv2 = news.subscribe(function (v) { return console.log(v + 'via Batcave TV'); });
+var tv3 = news.subscribe(function (v) { return console.log(v + 'via Airport TV'); });
+news.next('Breaking news: ');
+news.next('The war is over ');
+tv1.unsubscribe();

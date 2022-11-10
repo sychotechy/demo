@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+.top-container{
+    width: 200px;
+    height: 200px;
+    background-color: powderblue;
+    border: solid 10px;
+    padding: 20px;
+}
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 20px solid;
+    margin-left: 260px;
+}
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 10px solid;
+    margin-left: 500px;
+}
+.dev{
+    text-decoration: underline;
+}

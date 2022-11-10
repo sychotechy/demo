@@ -1,0 +1,57 @@
+<div class='container'>
+  <div class='box'></div>
+  <div class='line1'></div>
+  <div class='line2'></div>
+  <div class='line3'></div>
+  <p>feathersoft</p>
+</div>
+
+
+.container{
+  height:200px;
+  width:400px;
+  background:white;
+}
+.box{
+  width:100px;
+  height:100px;
+  background:blue;
+  position:absolute;
+  top:10%;
+  left:5%;
+  border-radius: 25% 0;
+}
+.line1{
+  width:5px;
+  height:145px;
+  background:white;
+  position:absolute;
+  top:33px;
+  left:96px;
+  transform:rotate(45deg);
+}
+.line2{
+  width:75px;
+  height:5px;
+  background:white;
+  position:absolute;
+  top:85px;
+  left:40px;
+}
+.line3{
+  width:45px;
+  height:5px;
+  background:white;
+  position:absolute;
+  top:115px;
+  left:40px;
+}
+p{
+  font-size:60px;
+  position:absolute;
+  left:170px;
+  color:blue;
+  font-family:sans-serif;
+  font-weight:bolder;
+  letter-spacing:-1px;
+}

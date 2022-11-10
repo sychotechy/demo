@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="https://emoji-uc.akamaized.net/orig/c2/5f0199530ac59c1bcca216cf4453dd.png" type="image/x-icon">
+</head>
+<body>
+    <center><h1>Contact Us</h1></center>
+    <h2>Just Connect</h2>
+    <ul>
+        <li>Phone number : 1234567890</li>
+        <li>Email : someone@gmail.com</li>
+    </ul>
+    <h2>Connect On SM</h2>
+    <ul>
+        <li><h3><a href="https://in.linkedin.com/in/sreejith-o?trk=people-guest_people_search-card">Linked In</a></h3></li>
+    </ul>
+
+    <h2>Enquires</h2>
+    <form action="./respond.html" method="post">
+        <div>
+            <label for="username">Firstname : </label>
+            <input type="text" placeholder="Firstname" name="Firstname" required>
+        </div>
+        <div>
+            <label for="secondname">Secondname : </label>
+            <input type="text" placeholder="Secondname" name="secondname" required>
+        </div>
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" placeholder="username" name="username" required minlength="3" maxlength="10">
+        </div>
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" placeholder="Enter your email" name="email" required>
+        </div>
+        <div>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="dob">Date of birth : </label>
+            <input type="date" min="2000-01-01" max="2022-01-01">
+        </div>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+</body>
+</html>

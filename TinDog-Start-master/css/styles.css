@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+#title{
+    color: white;
+    background: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 10%;
+    z-index: 1;
+}
+#features{
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+}
+.feature-box > i{
+    font-size: 3rem;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-box > i:hover{
+    color: #ff4c68;
+}
+.feature-box{
+    text-align: center;
+    padding: 5;
+}
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 2% 3%;
+}
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.cta-heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-media-icons{
+    margin: 20px 10px;
+}
+@media (max-width:988px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}

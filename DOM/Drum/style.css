@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 4rem;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: slateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-container{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    color: rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    background: springgreen;
+    border-radius: 10%;
+    text-transform: capitalize;
+}
+.drum{
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.w{
+    background-image: url("./Images/drum.png");
+}
+.a{
+    background-image: url("./Images/drum2.png");
+}
+.s{
+    background-image: url("./Images/drum3.png");
+}
+.d{
+    background-image: url("./Images/bass-drum.png");
+}
+.j{
+    background-image: url("./Images/drum-kit.png");
+}
+.k{
+    background-image: url("./Images/drums.png");
+}
+.l{
+    background-image: url("./Images/african-drum.png");
+}
+.pressed{
+    color: red;
+    box-shadow: 0 3px 15px 0 red;
+    opacity: 0.5;
+}
+
+.neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}

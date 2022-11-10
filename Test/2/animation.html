@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2040/2040632.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background: slateblue;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation-name: newAnimation;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes newAnimation{
+            0%{
+                background: slateblue;
+                top: 0;
+                left: 0;
+            }
+            25%{
+                background: springgreen;
+                top: 0;
+                left: 300px;
+            }
+            50%{
+                background: salmon;
+                top: 300px;
+                left: 300px;
+            }
+            75%{
+                background: gold;
+                top: 300px;
+                left: 0;
+            }
+            100%{
+                background: slateblue;
+                top: 0;
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

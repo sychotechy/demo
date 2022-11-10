@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-add">
+        <div class="add-card">
+            <h1>Add Products</h1>
+            <div class="form-container">
+                <form action="" class="form">
+                    <input type="text" name="productName" placeholder="Product Name">
+                    <input type="text" list="category-list" placeholder="Category">
+                    <datalist id="category-list">
+                        <option value="Electronics"></option>
+                        <option value="Groceries"></option>
+                        <option value="Fashion"></option>
+                        <option value="Toys"></option>
+                        <option value="Books"></option>
+                        <option value="Office"></option>
+                        <option value="Sports"></option>
+                        <option value="Gaming"></option>
+                        <option value="Mobile Devices"></option>
+                        <option value="Home"></option>
+                    </datalist>
+                    <input type="number" name="price" placeholder="Price" min="1" step="any">
+                    <button type="button" class="buttonClass">Save</button>
+                    <button type="button" class="buttonClass">Show Products</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="container-show">
+        <!-- <div class="show-card">
+            <h1>Product 1</h1>
+            <h3>Product Name : Iphone</h3>
+            <h3>Category : Smart Phone</h3>
+            <h3>Price : 150000</h3>
+        </div> -->
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

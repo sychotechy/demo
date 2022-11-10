@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: grey;
+}
+.container{
+    width: 350px;
+    height: 350px;
+    background: lightgrey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div{
+    height: 150px;
+    width: 150px;
+    position:absolute;
+}
+.box1{
+    background: red;
+    top:0;
+}
+.box2{
+    background: green;
+    top:100px;
+    left: 100px;
+}
+.box3{
+    background: blue;
+    top:200px;
+    left: 200px;
+}

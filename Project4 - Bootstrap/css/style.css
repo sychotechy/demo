@@ -1,0 +1,48 @@
+img{
+    width: 286px;
+    height: 160px;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#testimonials-row1{
+    padding: 10% 0 10% 0;
+    background-color: #212529;
+}
+#testimonials-row2{
+    padding: 10% 0 10% 0;
+}
+#testimonials-row3{
+    padding: 10% 0 10% 0;
+    background-color: #212529;
+}
+#testimonials-row4{
+    padding: 10% 0 10% 0;
+}
+#image-row{
+    padding: 10% 0 10% 0;
+    background-color: #212529;
+    padding: 5% 0 5% 0;
+}
+.carousel-item{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    background: lightgrey;
+    padding: 10%;
+}
+.carousel-item > h5{
+    padding-bottom: 1%;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.carousel-img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
